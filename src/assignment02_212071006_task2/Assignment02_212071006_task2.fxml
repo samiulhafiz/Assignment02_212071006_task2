@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #7000ff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment02_212071006_task2.Assignment02_212071006_task2Controller">
+   <children>
+      <Button fx:id="NameBtn" layoutX="145.0" layoutY="14.0" mnemonicParsing="false" onAction="#showname" prefHeight="0.0" prefWidth="110.0" style="-fx-background-color: #ffffff;" text="Name" textAlignment="CENTER" textFill="#7000ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="IdBtn" layoutX="145.0" layoutY="67.0" mnemonicParsing="false" onAction="#ShowId" prefHeight="0.0" prefWidth="110.0" style="-fx-background-color: #ffffff;" text="ID" textAlignment="CENTER" textFill="#7000ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="SemesterBtn" layoutX="144.0" layoutY="119.0" mnemonicParsing="false" onAction="#ShowSemester" prefHeight="0.0" prefWidth="110.0" style="-fx-background-color: #ffffff;" text="Semester" textAlignment="CENTER" textFill="#7000ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="BatchBtn" layoutX="145.0" layoutY="173.0" mnemonicParsing="false" onAction="#ShowBatch" prefHeight="0.0" prefWidth="110.0" style="-fx-background-color: #ffffff;" text="Batch" textAlignment="CENTER" textFill="#7000ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="ExitBtn" layoutX="144.0" layoutY="225.0" mnemonicParsing="false" onAction="#DoExit" prefHeight="0.0" prefWidth="110.0" style="-fx-background-color: #ffffff;" text="Exit" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
